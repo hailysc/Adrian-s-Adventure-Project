@@ -1,0 +1,499 @@
+
+body {
+   background-image: url("https://cdn.discordapp.com/attachments/751834743409999992/752010818689826937/aa_background_v2.jpg");
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250,255,253);
+  border-bottom: solid 5px;
+  border-color:rgb(58,58,58);
+  font-family: 'Grandstander', cursive;
+}
+.logo {
+  cursor: pointer;
+  float: left;
+  margin-left: 10px;
+}
+
+li {
+  font-family: 'Grandstander', cursive;
+}
+.nav__links a {
+  font-family: 'Grandstander', cursive;
+  font-weight: 500;
+  color:  rgb(71,188,255);
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  font-size: 16px;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+  text-decoration: underline #0088a9;
+}
+
+nav a {
+  color: rgb(71,188,255);
+  font-size: 25px;
+}
+
+nav a:hover {
+  color: rgb(125,84,222);
+}
+
+.bigAdrian{
+  float: right;
+  margin-right: 250px;
+}
+
+.mainPageBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.startGame {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12%;
+  margin-left: 25px;
+  padding:0;
+  line-height: 0.5px;
+  font-family: 'Grandstander', cursive;
+}
+
+.titleMainPage {
+  font-size: 65px; 
+  padding-bottom: 0%;
+}
+
+.subheading {
+  font-size: 30px;
+}
+
+.aboutUsTitle {
+  display: flex;
+  justify-content: center;
+  font-family: 'Grandstander', cursive;
+  margin-top: 70px;
+  font-size: 50px;
+}
+
+.purposeBody{
+  width:700px;
+  line-height: 180%;
+  margin-left: 50px;
+  font-family: 'Grandstander', cursive;
+}
+.purposeTitle{
+  display: flex;
+  justify-content: center;
+ font-family: 'Grandstander', cursive;
+ margin-top: 70px;
+ font-size: 50px;
+}
+
+.aboutUsTitle {
+  display: flex;
+  justify-content: center;
+}
+.penlopeText {
+  display: flex;
+  justify-content: right;
+  padding-left:45px;
+  font-size: 25px;
+}
+.penelopeBio {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Grandstander', cursive;
+}
+.penelopeRios {
+  font-family: 'Grandstander', cursive;
+}
+
+.startAdventure{
+  font-family: 'Grandstander', cursive;
+  font-size: 50px;
+  border: 2px solid black;
+  border-radius: 50px;
+  border-color: white;
+  background-color: #75fa77;
+  color: #1c971e;
+  text-align: center;
+  width: 500px;
+  height: 90px;
+  box-shadow: 0 9px #999;
+  outline: none;
+  -webkit-text-stroke: .2px black;
+}
+ .startAdventure:hover {
+   background-color: #45b349;
+   color: #177219;
+   }
+
+.startAdventure:active {
+  background-color: #45b349;
+  box-shadow: 0 5px #666;
+  color: #177219;
+  transform: translateY(4px);
+}
+
+
+
+.imagesOfPeople {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Grandstander', cursive;
+
+}
+
+.peopleCaption1 {
+  display: flex;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.peopleCaption2 {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.inputAndButton{
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 500px;
+  height: 70px;
+  font-size: 50px;
+  font-family: 'Grandstander', cursive;
+  text-align: center;
+  border-radius: 50px;
+  outline: none;
+}
+.button2{
+  font-family: 'Grandstander', cursive;
+  font-size: 30px;
+  border: 2px solid black;
+  border-radius: 50px;
+  border-color: white;
+  background-color: #75fa77;
+  color: #1c971e;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 9px #999;
+  outline: none;
+  -webkit-text-stroke: 1.5px black;
+}
+ .button2:hover {
+   background-color: #45b349;
+   color: #177219;
+   }
+
+.button2:active {
+  background-color: #45b349;
+  box-shadow: 0 5px #666;
+  color: #177219;
+  transform: translateY(4px);
+}
+  
+h2{
+font-family: 'Grandstander', cursive;
+font-size: 80px;
+text-align: center;  
+margin-top: 12%;
+}
+
+}
+.scene4Text {
+  font-family: 'Grandstander', cursive;
+  margin-top: 5px;
+  margin-left:15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+.scene3Text {
+  margin-left: 15px;
+  font-family: 'Grandstander', cursive;
+  font-size: 25px;
+  
+}
+.sceneQuestion {
+  font-family: 'Grandstander', cursive;
+  font-size: 25px;
+  margin-left: 15px;
+  padding-top: 25px;
+}
+
+
+.sceneText1 {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left:15px;
+  font-family: 'Grandstander', cursive;
+  font-size: 25px;
+}
+
+.sceneQuestion {
+  margin-top:0;
+}
+
+
+.sceneImg {
+width: 870px;
+height:420px;
+}
+
+.scene1 {
+  font-family: 'Grandstander', cursive;
+  font-size: 35px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+ flex-direction: row;
+ align-items: center;
+}
+
+.option1 {
+  font-family: 'Grandstander', cursive;
+  font-size: 15px;
+  height: 100px;
+  width: 400px;
+  margin: 40px; 
+}
+
+.option2 {
+  font-family: 'Grandstander', cursive;
+  font-size: 15px;
+  height: 100px;
+  width: 400px;
+  margin: 40px;
+}
+
+.optionButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.option1 {
+  font-family: 'Grandstander', cursive;
+  font-size: 30px;
+  border: 2px solid black;
+ 
+  border-color: white;
+  background-color: rgb(255, 234, 113);
+  color: rgb(255,185,0);
+  text-align: center;
+  width: 400px;
+  height: 100px;
+  box-shadow: 0 9px #999;
+  outline: none;
+  -webkit-text-stroke: 1.5px black;
+}
+
+.option1:hover {
+  background-color:rgb(247, 221, 79);
+  color: rgb(255,185,0);
+}
+
+
+.option1:active {
+  background-color: rgb(247, 221, 79);;
+  box-shadow: 0 5px #666;
+  color:rgb(255,185,0);
+  transform: translateY(4px);
+}
+   
+.option2 {
+  font-family: 'Grandstander', cursive;
+  font-size: 30px;
+  border: 2px solid black;
+
+  border-color: white;
+  background-color: rgb(255, 234, 113);
+  color: rgb(255,185,0);
+  text-align: center;
+  width: 400px;
+  height: 100px;
+  box-shadow: 0 9px #999;
+  outline: none;
+  -webkit-text-stroke: 1.5px black;
+}
+
+.option2:hover {
+   background-color:rgb(247, 221, 79);
+   color: rgb(255,185,0);
+}
+
+.option2:active {
+  background-color: rgb(247, 221, 79);;
+  box-shadow: 0 5px #666;
+  color:rgb(255,185,0);
+  transform: translateY(4px);
+}
+
+
+.hiddenOne {
+  display : none;
+}
+
+.hiddenTwo {
+  display : none;
+}
+.hiddenThree {
+  display : none;
+}
+.hiddenFour {
+  display : none;
+}
+
+.questionsGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.backNextButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.backButton {
+  width: 150px;
+  height: 50px;
+  padding-right: 5px;
+  background-color: #FE5C5C;
+  border-radius: 25px;
+  font-family: 'Grandstander', cursive;
+  font-size: 30px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.nextButton {
+  width: 150px;
+  height: 50px;
+  background-color: #FE5C5C;
+  font-family: 'Grandstander', cursive;
+  font-size: 30px;
+  border-radius: 25px;
+  margin-left: 25px;
+  outline: none;
+  border: 2px solid black;
+}
+
+.backButton:hover {
+  background-color: rgb(245, 49, 49);
+}
+
+.nextButton:hover {
+  background-color: rgb(245, 49, 49);
+}
+.pulloutTitle {
+ font-family: 'Grandstander', cursive;
+  display: flex;
+  justify-content: center;
+  font-size:50px;
+}
+.pulloutText {
+  font-family: 'Grandstander', cursive;
+  width: 650px;
+  font-size: 25px;
+  margin-left: 35px;
+  margin-top: 60px;
+}
+.pulloutImgText {
+display: flex;
+justify-content: left; 
+align-content: center;
+}
+
+.scene1Container {
+  font-family: 'Grandstander', cursive;
+  font-size: 35px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+ flex-direction: column;
+ align-items: center;
+}
+
+.backNextButtonsScene1 {
+  padding-top: 5px;
+}
+.pulloutTitleImg {
+  display: flex;
+  justify-content: center;
+}
+.sceneText {
+   font-family: 'Grandstander', cursive;
+}
+
+.pulloutImgText {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonQuestionPurpose {
+  font-family: 'Grandstander', cursive;
+  font-size: 30px;
+}
+
+.purposeTextInfo{
+  font-family: 'Grandstander', cursive;
+  font-size:25px;
+  margin-left: 15px;
+  display: flex;
+}
+
+.currentIssuesList{
+  font-size:25px;
+  
+  margin-left: 10%;
+}
+
+.buttonQuestionPurpose {
+  padding: 0;
+  
+  border: none;
+  background: none;
+  width: 800px;
+  height:50px;
+  outline:none;
+  text-decoration: none;
+  margin-left: 23%;
+  
+}
+
+.buttonQuestionPurpose:hover {
+   color: rgb(255, 253, 249);
+   -webkit-text-stroke: 1.5px black;
+}
+

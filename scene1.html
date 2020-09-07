@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Scene 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"defer></script>
+  </head>
+<body>
+<header>
+    <a class="logo" href="/"><img src="https://cdn.discordapp.com/attachments/751834743409999992/751906215151403170/EARTH_TRANSPARENT.png" width='103.625px' height='94.875px' alt="logo"></a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="purpose.html">Purpose</a></li>
+            </ul>
+      </nav>
+</header>
+
+<div class ="sceneText1">Hey, meet Adrian. He is in bed thinking about what he learned in school today. The <span class="toolTipText">environment<span class="toolTipPop">The environment is everything around us. All living and nonliving things like the air, soil, water, plants, and animals.</span></span> is in danger, but he doesn’t know how to make a difference. Oh well, it’s time to sleep. Goodnight Adrian!
+</div>
+
+
+<div class= "scene1Container">
+  <img class= "sceneImg" src = "https://cdn.discordapp.com/attachments/751834743409999992/752244940955975690/scene_1_frame_png.png">
+<div class = "backNextButtonsScene1">
+<a href="index.html" class="back"><button style= "cursor:pointer"class = "backButton">&laquo; Back</button></a>
+<a href="scene2.html" class="next"><button style= "cursor:pointer"class = "nextButton">Next &raquo;</button></a>
+</div>
+</div>
+<style>
+.toolTipText {
+  position: relative;
+  color: #ff009a; 
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.toolTipText .toolTipPop {
+  visibility: hidden;
+  width: 350px;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -165px;
+  font-size: 20px;
+}
+
+.toolTipText:hover .toolTipPop {
+  visibility: visible;
+  font-weight: normal;
+}
+
+.toolTipText .toolTipPop::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, 0.568) transparent;
+}</style>
+</body>
+<audio src="https://cdn.discordapp.com/attachments/751834743409999992/752496167446773851/scene_1-AudioTrimmer.com.mp3" autoplay loop>
+<p>If you are reading this, it is because your browser does not support the audio element.</p>
+</audio>
